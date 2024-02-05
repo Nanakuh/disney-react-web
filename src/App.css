@@ -1,6 +1,5 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  max-width: 100%;
   padding: 2rem;
   text-align: center;
 }
@@ -39,4 +38,75 @@
 
 .read-the-docs {
   color: #888;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.brand-logo {
+  font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links li a:hover {
+  color: #ffd700; /* Cambia el color al pasar el ratón */
+}
+.card-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 300px; /* O el ancho que prefieras */
+  margin: 10px; /* Para un poco de espacio alrededor */
+}
+
+.card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-title {
+  margin-top: 10px; /* Espacio entre la imagen y el título */
+}
+.every-card{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }

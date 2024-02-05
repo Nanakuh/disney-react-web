@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import CharacterCard from "./components/character-card/character-card";
+import data from '../src/data/data.json';
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -24,15 +25,38 @@ function App() {
   }, []);
 
   return (
-    <div>
-      {characters.map((character) => (
-        <CharacterCard
-          imagen={character.imageUrl}
-          titulo={character.name}
-          key={character._id}
-        />
-      ))}
-    </div>
+    <>
+      <nav className="navbar">
+        <div className="container">
+          <a href="#" className="brand-logo">
+            Logo
+          </a>
+          <ul className="nav-links">
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+            <li>
+              <a href="#">Eventos</a>
+            </li>
+            <li>
+              <a href="#">Contacto</a>
+            </li>
+            <li>
+              <a href="#">Acerca de</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div className="every-card">
+        {characters.map((character) => (
+          <CharacterCard
+            imagen={character.imageUrl}
+            titulo={character.name}
+            key={character._id}
+          />
+        ))}
+      </div>
+    </>
   );
 }
 

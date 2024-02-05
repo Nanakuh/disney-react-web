@@ -11,7 +11,7 @@ const CharacterCard = ({ imagen, titulo }) => {
 
 CharacterCard.propTypes = {
   imagen: PropTypes.string.isRequired,
-  titulo: PropTypes.string.isRequired
+  titulo: PropTypes.string.isRequired,
 };
 
 export default CharacterCard;

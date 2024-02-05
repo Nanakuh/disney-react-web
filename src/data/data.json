@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 112,
+    "groupName": "Metallica",
+    "dateEvent": "10-Abril-2024"
+  },
+  {
+    "_id": 113,
+    "groupName": "AC/DC",
+    "dateEvent": "15-Junio-2024"
+  },
+  {
+    "_id": 114,
+    "groupName": "Imagine Dragons",
+    "dateEvent": "10-Agosto-2024"
+  },
+  {
+    "_id": 115,
+    "groupName": "Metallica",
+    "dateEvent": "10-Abril-2024"
+  }
+]
