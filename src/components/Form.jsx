@@ -140,7 +140,7 @@ const App = () => {
 
           <div className="input-group-radio">
             <label className="label-radio" htmlFor="banktransfer">
-              Efectivo
+              Transferencia
             </label>
             {/* Este radio solo debe aparecer activo cuando paymentType sea cash */}
             <input
