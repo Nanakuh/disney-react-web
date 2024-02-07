@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import CharacterCard from "./character-card/character-card";
-import data from '../data/data.json';
+
 import Header from "./Header";
 import Form from "./Form";
 import Search from "./Search";
@@ -29,8 +29,8 @@ function App() {
 
   return (
     <div>
-     <Header />
-     <Search />
+      <Header />
+      <Search />
       <div className="every-card">
         {characters.map((character) => (
           <CharacterCard
@@ -40,7 +40,7 @@ function App() {
           />
         ))}
       </div>
-     <Form /> 
+      <Form />
     </div>
   );
 }
