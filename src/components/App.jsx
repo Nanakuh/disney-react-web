@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import CharacterCard from "./character-card/character-card";
 import data from '../data/data.json';
 import Header from "./Header";
-import Form from "./Form"
+import Form from "./Form";
+import Search from "./Search";
 
 function App() {
   const [characters, setCharacters] = useState([]);
@@ -29,6 +30,7 @@ function App() {
   return (
     <div>
      <Header />
+     <Search />
       <div className="every-card">
         {characters.map((character) => (
           <CharacterCard
