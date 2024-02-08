@@ -1,24 +1,22 @@
+import { NavLink } from "react-router-dom";
+
 function Header () {
   return(
   <div className="navbar">
-      <h1>COMPRA TU ENTRADA</h1>
-        <div className="container">
+            <div className="container">
           <a href="#" className="brand-logo">
             Logo
           </a>
           <ul className="nav-links">
             <li>
-              <a href="#">Inicio</a>
+              <NavLink to="/">HOME</NavLink>
+
             </li>
             <li>
-              <a href="#">Eventos</a>
+              <NavLink to="/faqs">FAQS</NavLink>
+
             </li>
-            <li>
-              <a href="#">Contacto</a>
-            </li>
-            <li>
-              <a href="#">Acerca de</a>
-            </li>
+            
           </ul>
         </div>
   </div>
