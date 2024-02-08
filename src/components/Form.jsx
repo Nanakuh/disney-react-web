@@ -170,7 +170,7 @@ const App = () => {
         <div className="preview">
           <h2>Tus datos son:</h2>
           <ul>
-            <li>Nombre: {name}</li>
+            <li>Nombre: {userName}</li>
             <li>Email: {email}</li>
             <li>Región: {region}</li>
             <li>Método de pago: {renderPaymentTypeText()}</li>

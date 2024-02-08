@@ -5,6 +5,7 @@ import Header from "./Header";
 import Form from "./Form";
 import Search from "./Search";
 
+
 function App() {
   const [characters, setCharacters] = useState([]);
 
@@ -40,6 +41,7 @@ function App() {
           />
         ))}
       </div>
+     
       <Form />
     </div>
   );

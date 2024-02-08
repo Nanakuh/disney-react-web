@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 function SearchByCity({ handleFilter }) {
 
   const handleInputCity = (event) => {
-    handleFilter('character', event.currentTarget.value);
+    handleFilter('city', event.currentTarget.value);
   };
 
   return (
