@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
+import "./event-card.css";
 
 const EventCard = ({ imageUrl, name, id, price }) => {
   return (

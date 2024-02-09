@@ -17,4 +17,5 @@
 
 .card-title {
   margin-top: 10px; /* Espacio entre la imagen y el título */
+  margin-left: 5px;
 }
