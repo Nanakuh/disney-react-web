@@ -4,9 +4,9 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Root from "./components/pages/root";
-import Detail from "./components/pages/detail";
-import Faqs from "./components/pages/faqs";
+import Root from "./components/pages/root/root";
+import Detail from "./components/pages/detail/detail";
+import Faqs from "./components/pages/faqs/faqs";
 
 
 const router = createBrowserRouter([

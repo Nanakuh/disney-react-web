@@ -4,11 +4,11 @@ import Header from "./components/molecules/header/header";
 
 const Layout = ({ children }) => {
   return (
-    <>
+    <div className="layout-container">
       <Header />
       {children}
       <Footer />
-    </>
+    </div>
   );
 };
 Layout.propTypes = {

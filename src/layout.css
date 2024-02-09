@@ -1,0 +1,8 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: c;
+  min-height: 100vh; 
+  padding: 1rem;
+}

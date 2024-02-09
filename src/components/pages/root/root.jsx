@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
-
-import EventCard from "../molecules/event-card/event-card";
-
-import Form from "../molecules/Form";
-import Search from "../molecules/Search";
-import mockData from "../../data/data";
-import Layout from "../../layout";
+import "./root.css";
+import EventCard from "../../molecules/event-card/event-card";
+import mockData from "../../../data/data";
+import Layout from "../../../layout";
 
 const Root = () => {
   const [events, setEvents] = useState([]);
@@ -22,8 +19,7 @@ const Root = () => {
 
   return (
     <Layout>
-      <Search />
-      <div className="every-card">
+      <div className="cards-container">
         {events.map((elem) => (
           <EventCard
             imageUrl={elem.imageUrl}
@@ -33,8 +29,6 @@ const Root = () => {
           />
         ))}
       </div>
-
-      <Form />
     </Layout>
   );
 };
