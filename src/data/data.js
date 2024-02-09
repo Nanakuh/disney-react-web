@@ -17,7 +17,8 @@ const mockData = [
       name: "Rock Nights",
       contact: "info@rocknights.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl:
+      "https://storage.googleapis.com/gutenfy-web-dev/event-test/Rock_en%20_Vivo.png",
   },
   {
     id: "evt-002",
@@ -38,7 +39,7 @@ const mockData = [
       name: "Jazz Spirit",
       contact: "contacto@jazzspirit.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/Festival_de_Jazz.png ",
   },
   {
     id: "evt-003",
@@ -59,7 +60,7 @@ const mockData = [
       name: "Artes Escénicas Madrid",
       contact: "info@artesescenicasmd.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/siglo_de_oro.png",
   },
   {
     id: "evt-004",
@@ -80,7 +81,8 @@ const mockData = [
       name: "Cultura Contemporánea",
       contact: "expo@reinasofia.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl:
+      "https://storage.googleapis.com/gutenfy-web-dev/event-test/Exposicion_de_Arte_Moderno.png",
   },
   {
     id: "evt-005",
@@ -101,7 +103,7 @@ const mockData = [
       name: "Flamenco Vivo",
       contact: "reservas@flamencovivo.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/Flamenco.png",
   },
   {
     id: "evt-006",
@@ -122,7 +124,7 @@ const mockData = [
       name: "Ruta del Vino",
       contact: "info@rutadelvino.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/Cata.png",
   },
   {
     id: "evt-007",
@@ -143,7 +145,7 @@ const mockData = [
       name: "Barcelona Deportes",
       contact: "maraton@bcndeportes.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/maraton.png",
   },
   {
     id: "evt-008",
@@ -164,7 +166,7 @@ const mockData = [
       name: "FotoEspaña",
       contact: "talleres@fotoespana.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/fotograf%C3%ADa.png",
   },
   {
     id: "evt-009",
@@ -185,7 +187,7 @@ const mockData = [
       name: "Asociación Feria del Libro",
       contact: "info@ferialibromadrid.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/feria-del-libro.png",
   },
   {
     id: "evt-010",
@@ -206,7 +208,7 @@ const mockData = [
       name: "Tech World Spain",
       contact: "contacto@techworld.es",
     },
-    imageUrl: "https://via.placeholder.com/150",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/conferencia-internacional-tecnologia.png",
   },
 ];
 export default mockData;
