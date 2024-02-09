@@ -1,18 +1,19 @@
 import { useState, useEffect } from "react";
 
-import EventCard from "../components/event-card/event-card";
-import Header from "../components/Header";
-import Form from "../components/Form";
-import Search from "../components/Search";
-import mockData from "../data/data";
+import EventCard from "../molecules/event-card/event-card";
 
-function Root() {
+import Form from "../molecules/Form";
+import Search from "../molecules/Search";
+import mockData from "../../data/data";
+import Layout from "../../layout";
+
+const Root = () => {
   const [events, setEvents] = useState([]);
 
-  const fetchData = () => { //simulamos peticion a api
-   
-      setEvents(mockData);
-  
+  const fetchData = () => {
+    //simulamos peticion a api
+
+    setEvents(mockData);
   };
 
   useEffect(() => {
@@ -20,13 +21,12 @@ function Root() {
   }, []);
 
   return (
-    <div>
-      <Header />
+    <Layout>
       <Search />
       <div className="every-card">
         {events.map((elem) => (
           <EventCard
-            imagenUrl={elem.imageUrl}
+            imageUrl={elem.imageUrl}
             name={elem.eventName}
             key={elem.id}
             price={elem.priceCents}
@@ -35,8 +35,8 @@ function Root() {
       </div>
 
       <Form />
-    </div>
+    </Layout>
   );
-}
+};
 
 export default Root;

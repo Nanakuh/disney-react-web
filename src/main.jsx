@@ -4,9 +4,10 @@ import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Root from "./routes/root";
-import Detail from "./routes/detail";
-import Faqs from "./routes/faqs";
+import Root from "./components/pages/root";
+import Detail from "./components/pages/detail";
+import Faqs from "./components/pages/faqs";
+
 
 const router = createBrowserRouter([
   {
@@ -20,11 +21,12 @@ const router = createBrowserRouter([
   {
     path: "/faqs",
     element: <Faqs />,
-  }
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} />    
+  
   </React.StrictMode>
 );
