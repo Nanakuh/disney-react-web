@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/detail/:eventName",
+    path: "/detail/:eventId",
     element: <Detail />,
   },
   {

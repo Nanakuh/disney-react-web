@@ -25,6 +25,7 @@ const Root = () => {
             imageUrl={elem.imageUrl}
             name={elem.eventName}
             key={elem.id}
+            id={elem.id}
             price={elem.priceCents}
           />
         ))}

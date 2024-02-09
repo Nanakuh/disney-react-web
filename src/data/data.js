@@ -2,7 +2,7 @@ const mockData = [
   {
     id: "evt-001",
     eventName: "Rock en Vivo",
-    date: "2024-06-15T20:00:00Z",
+    date: "2024-06-15T20:30:00Z",
     location: {
       name: "La Riviera",
       address: "Paseo Bajo de la Virgen del Puerto, s/n",
@@ -22,7 +22,7 @@ const mockData = [
   {
     id: "evt-002",
     eventName: "Festival de Jazz",
-    date: "2024-07-22T18:00:00Z",
+    date: "2024-07-22T18:30:00Z",
     location: {
       name: "Palau de la Música Catalana",
       address: "C/ Palau de la Música, 4-6",
@@ -43,7 +43,7 @@ const mockData = [
   {
     id: "evt-003",
     eventName: "Obra de Teatro: El Siglo de Oro",
-    date: "2024-08-05T19:00:00Z",
+    date: "2024-08-05T19:15:00Z",
     location: {
       name: "Teatro Español",
       address: "Calle Príncipe, 25",
@@ -64,7 +64,7 @@ const mockData = [
   {
     id: "evt-004",
     eventName: "Exposición de Arte Moderno",
-    date: "2024-09-10T10:00:00Z",
+    date: "2024-09-10T10:45:00Z",
     location: {
       name: "Museo Reina Sofía",
       address: "Calle de Santa Isabel, 52",
@@ -85,7 +85,7 @@ const mockData = [
   {
     id: "evt-005",
     eventName: "Noche de Flamenco",
-    date: "2024-10-25T21:00:00Z",
+    date: "2024-10-25T20:15:00Z",
     location: {
       name: "Tablao El Carmen",
       address: "Calle de los Jardines, 11",
@@ -106,7 +106,7 @@ const mockData = [
   {
     id: "evt-006",
     eventName: "Cata de Vinos",
-    date: "2024-11-12T17:00:00Z",
+    date: "2024-11-12T17:15:00Z",
     location: {
       name: "Bodega Marqués de Riscal",
       address: "Calle Torrea, 1",
@@ -127,7 +127,7 @@ const mockData = [
   {
     id: "evt-007",
     eventName: "Maratón Internacional de Barcelona",
-    date: "2024-03-17T07:00:00Z",
+    date: "2024-03-17T07:30:00Z",
     location: {
       name: "Avenida Reina María Cristina",
       address: "Avenida Reina María Cristina",
@@ -148,7 +148,7 @@ const mockData = [
   {
     id: "evt-008",
     eventName: "Taller de Fotografía",
-    date: "2024-04-20T09:00:00Z",
+    date: "2024-04-20T09:10:00Z",
     location: {
       name: "Centro Cultural Conde Duque",
       address: "Calle Conde Duque, 11",
@@ -169,7 +169,7 @@ const mockData = [
   {
     id: "evt-009",
     eventName: "Feria del Libro",
-    date: "2024-05-30T10:00:00Z",
+    date: "2024-05-30T10:11:00Z",
     location: {
       name: "Parque del Retiro",
       address: "Plaza de la Independencia, 7",
@@ -190,7 +190,7 @@ const mockData = [
   {
     id: "evt-010",
     eventName: "Conferencia Internacional de Tecnología",
-    date: "2024-02-25T09:00:00Z",
+    date: "2024-02-25T09:30:00Z",
     location: {
       name: "Palacio de Congresos de Valencia",
       address: "Avenida de las Cortes Valencianas, 60",

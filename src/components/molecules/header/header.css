@@ -12,3 +12,7 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+.header-logo {
+  max-height: 80px;
+  width: auto;
+}

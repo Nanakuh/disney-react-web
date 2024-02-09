@@ -15,7 +15,7 @@ const EventCard = ({ imageUrl, name, id, price }) => {
             <span>Desde</span>
             <span className="price">{price / 100} €</span>
           </div>
-          <NavLink to={`/detail/${name}`}>
+          <NavLink to={`/detail/${id}`}>
             <button className="info-button">+INFO</button>
           </NavLink>
         </div>
