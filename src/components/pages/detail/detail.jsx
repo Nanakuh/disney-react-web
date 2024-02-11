@@ -1,8 +1,9 @@
-import { useParams } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
 import Layout from "../../../layout";
 import "./detail.css";
 import { useEffect, useState } from "react";
 import mockData from "../../../data/data";
+
 
 const Detail = () => {
   const { eventId } = useParams();
@@ -49,7 +50,10 @@ const Detail = () => {
             <p>Organizador: {event.organizer.name}</p>
             <p>Contacto: {event.organizer.contact}</p>
           </div>
+          <NavLink to={`/form`}>
           <button className="event-booking-button">Reservar Entrada</button>
+          </NavLink>
+          
         </div>
       </div>
     </Layout>

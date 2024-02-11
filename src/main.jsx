@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./components/pages/root/root";
 import Detail from "./components/pages/detail/detail";
 import Faqs from "./components/pages/faqs/faqs";
+import Form from "./components/pages/form/form";
 
 
 const router = createBrowserRouter([
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/:eventId",
     element: <Detail />,
+  },
+  {
+    path: "/form",
+    element: <Form />,
   },
   {
     path: "/faqs",

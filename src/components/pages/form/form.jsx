@@ -1,11 +1,11 @@
 // Fichero src/components/App.jsx
 import { useState } from "react";
 
-const App = () => {
+const Form = () => {
   // Estados del componente
   const [userName, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [region, setRegion] = useState("España peninsular"); // Iniciamos el componente con la primera opción del select
+
   const [paymentType, setPaymentType] = useState("");
   const [legalTerms, setLegalTerms] = useState(false);
 
@@ -16,10 +16,6 @@ const App = () => {
 
   const handleEmail = (ev) => {
     setEmail(ev.target.value);
-  };
-
-  const handleRegion = (ev) => {
-    setRegion(ev.target.value);
   };
 
   const handlePaymentType = (ev) => {
@@ -35,7 +31,7 @@ const App = () => {
     // Ponemos los mismo valores que hemos usado arriba en los useState
     setName("");
     setEmail("");
-    setRegion("España peninsular");
+
     setPaymentType("");
     setLegalTerms(false);
   };
@@ -102,24 +98,6 @@ const App = () => {
             onChange={handleEmail}
           />
 
-          {/* region */}
-          <label className="label-text" htmlFor="region">
-            Indica tu región:
-          </label>
-          <select
-            className="input-select"
-            name="region"
-            id="region"
-            value={region}
-            onChange={handleRegion}
-          >
-            <option>España peninsular</option>
-            <option>Islas Canarias</option>
-            <option>Islas Baleares</option>
-            <option>Ceuta</option>
-            <option>Melilla</option>
-          </select>
-
           {/* payment type */}
           <label className="label-text">Indica tu método de pago:</label>
 
@@ -151,7 +129,7 @@ const App = () => {
               checked={paymentType === "banktransfer"}
               onChange={handlePaymentType}
             />
-          </div>  
+          </div>
 
           {/* legal terms */}
           <label className="label-check" htmlFor="legalTerms">
@@ -172,7 +150,7 @@ const App = () => {
           <ul>
             <li>Nombre: {userName}</li>
             <li>Email: {email}</li>
-            <li>Región: {region}</li>
+
             <li>Método de pago: {renderPaymentTypeText()}</li>
             <li>
               Has aceptado nuestros términos legales:{" "}
@@ -199,4 +177,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Form;
