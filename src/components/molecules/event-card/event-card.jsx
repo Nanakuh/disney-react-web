@@ -25,7 +25,7 @@ const EventCard = ({ imageUrl, name, id, price }) => {
 };
 
 EventCard.propTypes = {
-  imageUrl: PropTypes.string,
+  imageUrl: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
