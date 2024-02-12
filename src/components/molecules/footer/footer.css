@@ -2,9 +2,8 @@
   width: 100%;
   background-color: #f8f9fa;
   border-top: 1px solid #e7e7e7;
-  padding: 20px 0;
-  position: absolute;
-  bottom: 0;
+  padding: 20px 0px;
+  position: absolute;  
   left: 0;
   display: block;
 }

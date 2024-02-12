@@ -1,0 +1,66 @@
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Estilos para las etiquetas */
+.label-text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+.input-text {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Esto asegura que el tamaño total incluya el relleno y el borde */
+}
+
+/* Estilos para los grupos de radio */
+.input-group-radio {
+  margin-bottom: 15px;
+}
+
+.label-radio {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilos para el botón */
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de limpiar */
+.reset {
+  margin-top: 10px;
+  background-color: blue;
+}
+
+/* Estilos para la vista previa */
+.preview {
+  margin-top: 20px;
+}
+
+.preview ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.preview li {
+  margin-bottom: 10px;
+}
