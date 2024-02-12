@@ -16,10 +16,12 @@
   text-align: center;
 }
 
-.footer-content p {
+.footer-links {
+  display: flex;
   margin: 5px 0;
   color: #333;
   font-size: 14px;
+
 }
 
 @media (min-width: 768px) {
