@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
@@ -8,13 +9,15 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Tu Empresa. Todos los derechos
           reservados.
         </p>
-        <div className="footer-links">
-          <p className="footer-link">Política de privacidad</p>
-          <p className="footer-link">|</p>           
+        <nav className="footer-links">
+          <NavLink to="./components/pages/privacy" className="footer-link">
+            Política de privacidad
+          </NavLink>
+         {" | "}
           <p className="footer-link">Términos de servicio</p>
-          <p className="footer-link">|</p> 
-          <p className="footer-link">Contacto</p> 
-        </div>
+          <p className="footer-link">|</p>
+          <p className="footer-link">Contacto</p>
+        </nav>
       </div>
     </footer>
   );

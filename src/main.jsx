@@ -8,6 +8,7 @@ import Root from "./components/pages/root/root";
 import Detail from "./components/pages/detail/detail";
 import Faqs from "./components/pages/faqs/faqs";
 import Form from "./components/pages/form/form";
+import PrivacyPolicy from "./components/pages/privacy/privacy";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
     path: "/faqs",
     element: <Faqs />,
   },
+
+  {
+    path: "/privacy",
+    element: <PrivacyPolicy />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

@@ -1,7 +1,8 @@
-import React from "react";
+import Layout from "../../../layout";
 
 const PrivacyPolicy = () => {
   return (
+    <Layout>
     <div>
       <h2>Política de Privacidad</h2>
       <p>
@@ -33,6 +34,7 @@ const PrivacyPolicy = () => {
       {/* Agrega el resto de la política de privacidad aquí */}
       <p>...</p>
     </div>
+    </Layout>
   );
 };
 
