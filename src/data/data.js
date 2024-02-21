@@ -157,7 +157,7 @@ const mockData = [
       city: "Madrid",
       country: "España",
     },
-    priceCents: 300000,
+    priceCents: 5000,
     availability: 20,
     description:
       "Aprende las técnicas de fotografía con profesionales del sector.",
@@ -209,6 +209,46 @@ const mockData = [
       contact: "contacto@techworld.es",
     },
     imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/conferencia-internacional-tecnologia.png",
+  },
+  {
+    id: "evt-011",
+    eventName: "Feria Gastronómica Internacional",
+    date: "2024-08-25T12:00:00Z",
+    location: {
+      name: "Centro de Convenciones Culinarium",
+      address: "Avenida del Sabor, 789",
+      city: "Ciudad Delicias",
+      country: "País Gourmet",
+    },
+    priceCents: 3000,
+    availability: 500,
+    description: "¡Ven y saborea lo mejor de la gastronomía internacional en nuestra feria! Descubre platos exquisitos, chefs famosos y mucho más.",
+    category: "Gastronomía",
+    organizer: {
+      name: "Sabores del Mundo",
+      contact: "info@sabores.com",
+    },
+    imageUrl: "https://example.com/feria_gastronomica.png",
+  },
+  {
+    id: "evt-012",
+    eventName: "Torneo de Ajedrez",
+    date: "2024-09-15T10:00:00Z",
+    location: {
+      name: "Club de Ajedrez Estrategia Maestra",
+      address: "Calle del Tablero, 321",
+      city: "Ciudad Ajedrez",
+      country: "País Estratégico",
+    },
+    priceCents: 1500,
+    availability: 50,
+    description: "¡Demuestra tu habilidad en el tablero en nuestro torneo de ajedrez! Competirás contra los mejores jugadores y podrás ganar grandes premios.",
+    category: "Deportes",
+    organizer: {
+      name: "Estrategias Ganadoras",
+      contact: "info@estrategias.com",
+    },
+    imageUrl: "https://example.com/torneo_ajedrez.png",
   },
 ];
 export default mockData;
