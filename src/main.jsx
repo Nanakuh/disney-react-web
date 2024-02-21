@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import Root from "./components/pages/root/root";
 import Detail from "./components/pages/detail/detail";
@@ -11,7 +11,7 @@ import Form from "./components/pages/form/form";
 import PrivacyPolicy from "./components/pages/privacy/privacy";
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
