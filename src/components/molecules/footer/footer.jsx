@@ -10,7 +10,7 @@ const Footer = () => {
           reservados.
         </p>
         <nav className="footer-links">
-          <NavLink to="./components/pages/privacy" className="footer-link">
+          <NavLink to="/privacy" className="footer-link">
             Política de privacidad
           </NavLink>
          {" | "}

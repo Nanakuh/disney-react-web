@@ -228,7 +228,7 @@ const mockData = [
       name: "Sabores del Mundo",
       contact: "info@sabores.com",
     },
-    imageUrl: "https://example.com/feria_gastronomica.png",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/festival-culinario.png",
   },
   {
     id: "evt-012",
@@ -248,7 +248,7 @@ const mockData = [
       name: "Estrategias Ganadoras",
       contact: "info@estrategias.com",
     },
-    imageUrl: "https://example.com/torneo_ajedrez.png",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/torneo-ajedrez.png",
   },
 ];
 export default mockData;
