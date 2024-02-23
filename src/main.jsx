@@ -9,6 +9,8 @@ import Detail from "./components/pages/detail/detail";
 import Faqs from "./components/pages/faqs/faqs";
 import Form from "./components/pages/form/form";
 import PrivacyPolicy from "./components/pages/privacy/privacy";
+import TermsService from "./components/pages/terms-service/terms-service"
+
 
 
 const router = createHashRouter([
@@ -32,6 +34,10 @@ const router = createHashRouter([
   {
     path: "/privacy",
     element: <PrivacyPolicy />,
+  },
+  {
+    path: "/terms-service",
+    element: <TermsService />,
   }
 ]);
 

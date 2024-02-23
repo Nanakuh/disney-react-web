@@ -14,8 +14,8 @@ const Footer = () => {
             Política de privacidad
           </NavLink>
          {" | "}
-          <p className="footer-link">Términos de servicio</p>
-          <p className="footer-link">|</p>
+          <NavLink to="/terms-service" className="footer-link">Términos de servicio</NavLink>
+          {" | "}         
           <p className="footer-link">Contacto</p>
         </nav>
       </div>
