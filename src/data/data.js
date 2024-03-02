@@ -428,7 +428,7 @@ id: "evt-021",
     name: "Museo Reina Sofía",
     contact: "info@museoreinasofia.es",
   },
-  imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/Exposicion_de_Esculturas_Modernas.png",
+  imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/escultura2.png",
 },
 {
   id: "evt-022",
@@ -729,7 +729,7 @@ id: "evt-021",
       name: "FestivalCineValencia",
       contact: "info@festivalcinevalencia.com",
     },
-    imageUrl: "https://example.com/festival_cine_valencia.jpg",
+    imageUrl: "https://storage.googleapis.com/gutenfy-web-dev/event-test/festival_cine_valenicia.png",
   },
   
 ];
