@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# Página de Compra de Entradas para Conciertos
+# Página de Compra de Entradas para Eventos
 
 Este proyecto es una página web diseñada para permitir a los usuarios comprar entradas para conciertos de música en vivo.
 
